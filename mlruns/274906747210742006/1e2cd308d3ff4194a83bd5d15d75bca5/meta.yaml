@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/274906747210742006/1e2cd308d3ff4194a83bd5d15d75bca5/artifacts
+end_time: 1762931514709
+entry_point_name: ''
+experiment_id: '274906747210742006'
+lifecycle_stage: active
+run_id: 1e2cd308d3ff4194a83bd5d15d75bca5
+run_name: redolent-fowl-366
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762931511434
+status: 3
+tags: []
+user_id: Mustafa

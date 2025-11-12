@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/e08d8dfd187c49c8879243e3b86f2687/artifacts
+end_time: 1762929840153
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e08d8dfd187c49c8879243e3b86f2687
+run_name: whimsical-hound-892
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762929839956
+status: 3
+tags: []
+user_id: Mustafa
