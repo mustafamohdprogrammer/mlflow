@@ -53,7 +53,7 @@ with mlflow.start_run():
 
     # tags
     mlflow.set_tags({'Author': 'Mustafa', 'Model': 'RandomForestClassifier'})
-    mlflow.sklearn.log_model(rf, name="random-forest-model")
+    mlflow.sklearn.log_model(rf, artifact_path="random-forest-model")
 
 
     print(accuracy)
