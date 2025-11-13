@@ -7,7 +7,6 @@ from sklearn.metrics import accuracy_score,confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
 mlflow.set_tracking_uri("http://localhost:5000")
 
 wine = load_wine()
@@ -49,7 +48,6 @@ with mlflow.start_run():
 
     # tags
     mlflow.set_tags({'Author': 'Mustafa', 'Model': 'RandomForestClassifier'})
-    mlflow.sklearn.log_model(rf, name="random-forest-model")
-
+    mlflow.sklearn.log_model(rf,'model')
 
     print(accuracy)

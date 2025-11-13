@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/274906747210742006/6b77ed019e84496f974a4608edcdf518/artifacts
+end_time: 1763031076535
+entry_point_name: ''
+experiment_id: '274906747210742006'
+lifecycle_stage: active
+run_id: 6b77ed019e84496f974a4608edcdf518
+run_name: masked-mole-901
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763031074461
+status: 4
+tags: []
+user_id: Mustafa

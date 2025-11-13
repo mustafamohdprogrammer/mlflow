@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/274906747210742006/4aa670ff2bef45c38c323f071700d713/artifacts
+end_time: 1763031361208
+entry_point_name: ''
+experiment_id: '274906747210742006'
+lifecycle_stage: active
+run_id: 4aa670ff2bef45c38c323f071700d713
+run_name: enchanting-chimp-978
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763031348196
+status: 3
+tags: []
+user_id: Mustafa

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/274906747210742006/9a285f9e3b4647929db59bfe5bb34b74/artifacts
+end_time: 1763031148872
+entry_point_name: ''
+experiment_id: '274906747210742006'
+lifecycle_stage: active
+run_id: 9a285f9e3b4647929db59bfe5bb34b74
+run_name: stylish-dog-662
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763031119301
+status: 3
+tags: []
+user_id: Mustafa

@@ -6,9 +6,13 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score,confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
+import dagshub
+
+dagshub.init(repo_owner='mustafamohdprogrammer', repo_name='mlflow', mlflow=True)
 
 
-mlflow.set_tracking_uri("http://localhost:5000")
+
+mlflow.set_tracking_uri("https://dagshub.com/mustafamohdprogrammer/mlflow.mlflow")
 
 wine = load_wine()
 X = wine.data
