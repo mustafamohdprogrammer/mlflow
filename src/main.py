@@ -50,10 +50,14 @@ with mlflow.start_run():
     mlflow.log_artifact('Confusion-matrix.png')
     mlflow.log_artifact(__file__)
 
+    # import mlflow
+    mlflow.set_registry_uri("databricks-uc")  # disables logged-model API fallback
+
 
     # tags
     mlflow.set_tags({'Author': 'Mustafa', 'Model': 'RandomForestClassifier'})
-    mlflow.sklearn.log_model(rf, artifact_path="random-forest-model")
+    mlflow.sklearn.log_model(rf, name="random-forest-model")
+
 
 
     print(accuracy)
